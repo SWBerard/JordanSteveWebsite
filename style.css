@@ -1,0 +1,29 @@
+.mainText {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1em;
+}
+
+.titleText {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.textBlue {
+    color: blue;
+}
+
+.opacity-test:hover {
+    /* opacity: 0.1; */
+    background-color: yellow;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+@keyframes example {
+    from {background-color: rgb(195, 226, 253);}
+    to {background-color: yellow;}
+  }
+
+body {
+    background-color: bisque;
+    margin: 2em;
+}
